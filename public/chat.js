@@ -1,4 +1,4 @@
-const socket=io.Process.env
+const socket=io.connect("https://socketapp-8it3.onrender.com")
 
 
 const submitBtn=document.getElementById('submitBtn')
