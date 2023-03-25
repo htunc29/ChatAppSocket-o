@@ -3,7 +3,7 @@ const socket=require('socket.io')
 
 const app=express()
 app.use(express.static('public'))
-const server=app.listen(5000)
+const server=app.listen("https://socketapp-8it3.onrender.com")
 const io=socket(server)
 
 
