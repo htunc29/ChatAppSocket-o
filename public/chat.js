@@ -1,4 +1,4 @@
-const socket=io.connect("https://socketapp-8it3.onrender.com")
+const socket=io.connect("http://localhost:3000")
 
 
 const submitBtn=document.getElementById('submitBtn')
